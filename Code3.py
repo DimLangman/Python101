@@ -1,7 +1,7 @@
 import datetime
 import random
 
-curtime = datetime.datetime(2019, 4, 27)
+curtime = datetime.datetime(2019, 5, 23)
 print (curtime)
 
 rnd = random.Random()
@@ -15,22 +15,6 @@ for i in range(0,len(val)):
     crypt += (val[i] ^ r).to_bytes(1,'big')
 
 print(crypt)
-
-print(int.from_bytes(b'x88k|E\xa4\x9c\xc9\xfa\xb7~Jz\x00\x05tg\x90\xf8H\xeet\xdd\x80i', byteorder ='big'))
-print(int.from_bytes(crypt, byteorder ='big')
-print " "
-bystr = '\x88k|E\xa4\x9c\xc9\xfa\xb7~Jz\x00\x05tg\x90\xf8H\xeet\xdd\x80i'
-print (bystr)
-
-
-
-
-str = bytes.decode(tex1)
-
-
-
-str(bystr, 'utf-8', 'ignore')
-print (bystr)
 
 
 
