@@ -17,6 +17,6 @@ while guesscorrect == False:
     elif (guess) > (randnumb1):
         print ("Guess lower!")
     else:
-        print ("Unlucky, error detected. Wrong input?")
+        print ("Error detected. Wrong input?")
         
                   
