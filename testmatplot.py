@@ -1,21 +1,14 @@
-# Load modules
-# import codecademylib
-from matplotlib import pyplot as plt
+dict = {"country": ["Brazil", "Russia", "India", "China", "South Africa"],
+       "capital": ["Brasilia", "Moscow", "New Dehli", "Beijing", "Pretoria"],
+       "area": [8.516, 17.10, 3.286, 9.597, 1.221],
+       "population": [200.4, 143.5, 1252, 1357, 52.98] }
+
 import pandas as pd
+brics = pd.DataFrame(dict)
+print(brics)
 
-# Load data
-df = pd.read_csv('page_visits.csv')
+# Set the index for brics
+brics.index = ["BR", "RU", "IN", "CH", "SA"]
 
-# Calculate survey results
-survey_results = df.groupby('website_goal')\
-  	.first_name.count()
-  
-# Make a pie chart
-plt.pie(survey_results.values,
-        labels=survey_results.index,
-        autopct='%d%%'
-       )
-plt.title('Why do citizens visit our website?')
-plt.axis('equal')
-
-plt.show()
+# Print out brics with new index values
+print(brics)
