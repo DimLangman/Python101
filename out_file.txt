@@ -1,0 +1,16 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 08D7-042B
+
+ Directory of C:\Users\D1m\CloudStation\Development
+
+15-10-2020  18:41    <DIR>          .
+15-10-2020  18:41    <DIR>          ..
+14-10-2020  23:19    <DIR>          Code
+14-10-2020  23:19    <DIR>          examples
+10-06-2019  12:40    <DIR>          magic_8_ball
+15-10-2020  18:42                 0 out_file.txt
+30-04-2020  16:38    <DIR>          Py4e
+15-10-2020  18:40    <DIR>          Training
+23-09-2019  14:56    <DIR>          __pycache__
+               1 File(s)              0 bytes
+               8 Dir(s)  134.870.536.192 bytes free
